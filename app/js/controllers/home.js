@@ -1,7 +1,7 @@
 angular.module('oldmenTest')
 
 .factory('getContacts', function($http, $rootScope){
-    var path = '/data/contacts.json';
+    var path = '../data/contacts.json';
     
     return $http.get(path)
         .success(function(data){
