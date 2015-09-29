@@ -24,7 +24,7 @@ module.exports = (grunt) ->
     clean:
       rebuild:
         src: 'dist'
-
+    
 
     copy:
       dist:
