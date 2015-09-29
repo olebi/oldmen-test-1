@@ -1,0 +1,151 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px; }
+
+ul, ol {
+  display: block;
+  margin: 0;
+  padding: 20px 15px;
+  list-style-type: none; }
+
+*:focus {
+  outline: none; }
+
+.main-wrap {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center; }
+  .main-wrap .row {
+    width: 100%; }
+
+.main-wrap {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9b59b6+17,9c59b9+18,9a5ab9+18,8b62bf+24,8963bf+24,8665c0+25,8567c2+25,7e6ac4+28,7c6bc4+28,7a6dc6+29,7c6cc6+29,7a6dc6+29,766fc6+30,6e74cd+32,7072cd+32,5284d7+41,5086d8+41,478bdb+44,448ddb+44,20b0ba+69,1abc9c+84 */
+  background: #9b59b6;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjE3LjMlIiBzdG9wLWNvbG9yPSIjOWI1OWI2IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTguMiUiIHN0b3AtY29sb3I9IiM5YzU5YjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxOC4yJSIgc3RvcC1jb2xvcj0iIzlhNWFiOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI0LjElIiBzdG9wLWNvbG9yPSIjOGI2MmJmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMjQuMSUiIHN0b3AtY29sb3I9IiM4OTYzYmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIyNS44JSIgc3RvcC1jb2xvcj0iIzg2NjVjMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI1LjglIiBzdG9wLWNvbG9yPSIjODU2N2MyIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMjguMSUiIHN0b3AtY29sb3I9IiM3ZTZhYzQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIyOC4xJSIgc3RvcC1jb2xvcj0iIzdjNmJjNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI5LjElIiBzdG9wLWNvbG9yPSIjN2E2ZGM2IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMjkuNSUiIHN0b3AtY29sb3I9IiM3YzZjYzYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIyOS41JSIgc3RvcC1jb2xvcj0iIzdhNmRjNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1jb2xvcj0iIzc2NmZjNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMyLjYlIiBzdG9wLWNvbG9yPSIjNmU3NGNkIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMzIuNiUiIHN0b3AtY29sb3I9IiM3MDcyY2QiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI0MS4xJSIgc3RvcC1jb2xvcj0iIzUyODRkNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQxLjElIiBzdG9wLWNvbG9yPSIjNTA4NmQ4IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNDQuNSUiIHN0b3AtY29sb3I9IiM0NzhiZGIiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI0NC41JSIgc3RvcC1jb2xvcj0iIzQ0OGRkYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjY5LjUlIiBzdG9wLWNvbG9yPSIjMjBiMGJhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iODQuOCUiIHN0b3AtY29sb3I9IiMxYWJjOWMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(-45deg, #9b59b6 17.3%, #9c59b9 18.2%, #9a5ab9 18.2%, #8b62bf 24.1%, #8963bf 24.1%, #8665c0 25.8%, #8567c2 25.8%, #7e6ac4 28.1%, #7c6bc4 28.1%, #7a6dc6 29.1%, #7c6cc6 29.5%, #7a6dc6 29.5%, #766fc6 30%, #6e74cd 32.6%, #7072cd 32.6%, #5284d7 41.1%, #5086d8 41.1%, #478bdb 44.5%, #448ddb 44.5%, #20b0ba 69.5%, #1abc9c 84.8%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(17.3%, #9b59b6), color-stop(18.2%, #9c59b9), color-stop(18.2%, #9a5ab9), color-stop(24.1%, #8b62bf), color-stop(24.1%, #8963bf), color-stop(25.8%, #8665c0), color-stop(25.8%, #8567c2), color-stop(28.1%, #7e6ac4), color-stop(28.1%, #7c6bc4), color-stop(29.1%, #7a6dc6), color-stop(29.5%, #7c6cc6), color-stop(29.5%, #7a6dc6), color-stop(30%, #766fc6), color-stop(32.6%, #6e74cd), color-stop(32.6%, #7072cd), color-stop(41.1%, #5284d7), color-stop(41.1%, #5086d8), color-stop(44.5%, #478bdb), color-stop(44.5%, #448ddb), color-stop(69.5%, #20b0ba), color-stop(84.8%, #1abc9c));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #9b59b6 17.3%, #9c59b9 18.2%, #9a5ab9 18.2%, #8b62bf 24.1%, #8963bf 24.1%, #8665c0 25.8%, #8567c2 25.8%, #7e6ac4 28.1%, #7c6bc4 28.1%, #7a6dc6 29.1%, #7c6cc6 29.5%, #7a6dc6 29.5%, #766fc6 30%, #6e74cd 32.6%, #7072cd 32.6%, #5284d7 41.1%, #5086d8 41.1%, #478bdb 44.5%, #448ddb 44.5%, #20b0ba 69.5%, #1abc9c 84.8%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #9b59b6 17.3%, #9c59b9 18.2%, #9a5ab9 18.2%, #8b62bf 24.1%, #8963bf 24.1%, #8665c0 25.8%, #8567c2 25.8%, #7e6ac4 28.1%, #7c6bc4 28.1%, #7a6dc6 29.1%, #7c6cc6 29.5%, #7a6dc6 29.5%, #766fc6 30%, #6e74cd 32.6%, #7072cd 32.6%, #5284d7 41.1%, #5086d8 41.1%, #478bdb 44.5%, #448ddb 44.5%, #20b0ba 69.5%, #1abc9c 84.8%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #9b59b6 17.3%, #9c59b9 18.2%, #9a5ab9 18.2%, #8b62bf 24.1%, #8963bf 24.1%, #8665c0 25.8%, #8567c2 25.8%, #7e6ac4 28.1%, #7c6bc4 28.1%, #7a6dc6 29.1%, #7c6cc6 29.5%, #7a6dc6 29.5%, #766fc6 30%, #6e74cd 32.6%, #7072cd 32.6%, #5284d7 41.1%, #5086d8 41.1%, #478bdb 44.5%, #448ddb 44.5%, #20b0ba 69.5%, #1abc9c 84.8%);
+  /* IE10+ */
+  background: linear-gradient(135deg, #9b59b6 17.3%, #9c59b9 18.2%, #9a5ab9 18.2%, #8b62bf 24.1%, #8963bf 24.1%, #8665c0 25.8%, #8567c2 25.8%, #7e6ac4 28.1%, #7c6bc4 28.1%, #7a6dc6 29.1%, #7c6cc6 29.5%, #7a6dc6 29.5%, #766fc6 30%, #6e74cd 32.6%, #7072cd 32.6%, #5284d7 41.1%, #5086d8 41.1%, #478bdb 44.5%, #448ddb 44.5%, #20b0ba 69.5%, #1abc9c 84.8%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b59b6', endColorstr='#1abc9c',GradientType=1 );
+  /* IE6-8 fallback on horizontal gradient */ }
+
+.ui-select-container {
+  margin-bottom: 20px; }
+
+.text-muted {
+  color: #aaa; }
+
+.ui-select-match {
+  border-radius: 15px;
+  height: 38px;
+  border: 2px solid white;
+  background-color: transparent; }
+  .ui-select-match .btn {
+    border: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    position: relative;
+    padding: 7px 12px; }
+    .ui-select-match .btn .caret {
+      position: absolute;
+      top: 17px;
+      right: 15px; }
+
+.ui-select-choices {
+  border-radius: 15px; }
+
+.form-control {
+  border-radius: 15px;
+  height: 38px;
+  border: 2px solid white;
+  color: #fff; }
+
+.mad-selectbox {
+  display: block;
+  width: 100%; }
+
+.contacts {
+  padding: 40px 16px; }
+  .contacts li {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 20px; }
+  .contacts li:last-of-type {
+    border-color: transparent; }
+  .contacts p {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 300; }
+    .contacts p a {
+      color: #3498db; }
+
+.name {
+  display: block;
+  font-size: 36px;
+  font-weight: 300; }
+
+.col-centered {
+  float: none;
+  margin: 0 auto; }
+
+input::-webkit-input-placeholder {
+  color: white; }
+
+input:-moz-placeholder {
+  /* Firefox 18- */
+  color: white; }
+
+input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white; }
+
+input:-ms-input-placeholder {
+  color: white; }
+
+.modal {
+  display: flex !important;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center; }
+
+.modal-dialog .modal-content {
+  width: 100%; }
+
+.ui-select-bootstrap .ui-select-choices-row.active > a {
+  background-color: #ccc; }
+
+.ui-select-bootstrap .ui-select-choices-row.active a {
+  display: block; }
+
+.close {
+  font-size: 50px;
+  font-weight: 100;
+  margin: 0 18px;
+  opacity: 1; }
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 75%; } }
+@media (min-width: 992px) {
+  .modal-dialog {
+    width: 50%; } }
+@media (max-width: 768px) {
+  .modal-dialog {
+    width: 100%; } }

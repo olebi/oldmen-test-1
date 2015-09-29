@@ -1,0 +1,14 @@
+{
+  "name": "oldmen-test",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "angular": "1.4.6",
+    "normalize-css": "normalize.css#~3.0.3",
+    "angular-bootstrap": "~0.13.4",
+    "ui-select": "angular-ui-select#~0.12.1",
+    "angular-sanitize": "~1.4.6",
+    "angular-ui-router": "ui-router#~0.2.15",
+    "bootstrap": "~3.3.5"
+  }
+}
